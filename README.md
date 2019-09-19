@@ -1,68 +1,11 @@
-This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
+프렌트립 코딩 과제
 
-## Available Scripts
+React(TypeScript 사용 가능), Redux-Saga를 사용해서 신경쇠약 게임을 구현해주세요.
+기한: 2019년 9월 23일 월요일 13:00까지 Github 공개 Repository에 코드를 푸시하고 링크를 메일로 보내주세요.
+조건:
 
-In the project directory, you can run:
-
-### `npm start`
-
-Runs the app in the development mode.<br>
-Open [http://localhost:3000](http://localhost:3000) to view it in the browser.
-
-The page will reload if you make edits.<br>
-You will also see any lint errors in the console.
-
-### `npm test`
-
-Launches the test runner in the interactive watch mode.<br>
-See the section about [running tests](https://facebook.github.io/create-react-app/docs/running-tests) for more information.
-
-### `npm run build`
-
-Builds the app for production to the `build` folder.<br>
-It correctly bundles React in production mode and optimizes the build for the best performance.
-
-The build is minified and the filenames include the hashes.<br>
-Your app is ready to be deployed!
-
-See the section about [deployment](https://facebook.github.io/create-react-app/docs/deployment) for more information.
-
-### `npm run eject`
-
-**Note: this is a one-way operation. Once you `eject`, you can’t go back!**
-
-If you aren’t satisfied with the build tool and configuration choices, you can `eject` at any time. This command will remove the single build dependency from your project.
-
-Instead, it will copy all the configuration files and the transitive dependencies (Webpack, Babel, ESLint, etc) right into your project so you have full control over them. All of the commands except `eject` will still work, but they will point to the copied scripts so you can tweak them. At this point you’re on your own.
-
-You don’t have to ever use `eject`. The curated feature set is suitable for small and middle deployments, and you shouldn’t feel obligated to use this feature. However we understand that this tool wouldn’t be useful if you couldn’t customize it when you are ready for it.
-
-## Learn More
-
-You can learn more in the [Create React App documentation](https://facebook.github.io/create-react-app/docs/getting-started).
-
-To learn React, check out the [React documentation](https://reactjs.org/).
-
-### Code Splitting
-
-This section has moved here: https://facebook.github.io/create-react-app/docs/code-splitting
-
-### Analyzing the Bundle Size
-
-This section has moved here: https://facebook.github.io/create-react-app/docs/analyzing-the-bundle-size
-
-### Making a Progressive Web App
-
-This section has moved here: https://facebook.github.io/create-react-app/docs/making-a-progressive-web-app
-
-### Advanced Configuration
-
-This section has moved here: https://facebook.github.io/create-react-app/docs/advanced-configuration
-
-### Deployment
-
-This section has moved here: https://facebook.github.io/create-react-app/docs/deployment
-
-### `npm run build` fails to minify
-
-This section has moved here: https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify
+1. 카드는 같은 카드 2장씩 10쌍으로 총 20장, 배치는 가로 4 \* 세로 5
+2. 두 장을 뒤집어서 뒤집은 두 장의 카드가 짝이 맞으면 뒤집은 채로 두고 짝이 맞지 않았을 경우에는 다시 뒤집어 되돌려 놓는다. 이렇게 반복하여 바닥에 내려놓은 카드를 전부 뒤집으면 게임이 종료됨.
+3. 카드는 임의의 이미지 또는 텍스트 사용
+4. 다시 하기 버튼 (카드 전부 뒤집고 다시 섞기) 구현
+5. 카드 다 맞추면 소요 시간 및 뒤집은 횟수(카드 1회 클릭할 때마다 1회 카운팅) 표시하고 다시 하기 버튼 외에 클릭 불가능하도록 처리
